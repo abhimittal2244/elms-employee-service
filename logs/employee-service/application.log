@@ -24,3 +24,99 @@
 2025-07-24 01:01:46.078 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
 2025-07-24 01:01:46.158 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_EMPLOYEE-SERVICE/Mittal:employee-service:8082 - deregister  status: 200
 2025-07-24 01:01:46.159 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-07-24 13:50:24.637 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-07-24 13:50:24.778 [restartedMain] INFO  com.elms.employee_service.EmployeeServiceApplication - Starting EmployeeServiceApplication using Java 17.0.14 with PID 10576 (C:\Users\mitta\Downloads\employee-leave-management-system-main\ELMS_BACKEND\employee-service\target\classes started by mitta in C:\Users\mitta\Downloads\employee-leave-management-system-main\ELMS_BACKEND\employee-service)
+2025-07-24 13:50:24.793 [restartedMain] DEBUG com.elms.employee_service.EmployeeServiceApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-07-24 13:50:24.797 [restartedMain] INFO  com.elms.employee_service.EmployeeServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-24 13:50:24.927 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-24 13:50:24.927 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-24 13:50:27.058 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-24 13:50:27.474 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 389 ms. Found 5 JPA repository interfaces.
+2025-07-24 13:50:28.138 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=eab1e79d-2b9e-3ced-9c90-ff2c4c30bab4
+2025-07-24 13:50:29.390 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2025-07-24 13:50:29.418 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-07-24 13:50:29.426 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-24 13:50:29.427 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-07-24 13:50:29.598 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-24 13:50:29.602 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4669 ms
+2025-07-24 13:50:30.894 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-24 13:50:31.051 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-07-24 13:50:31.142 [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-07-24 13:50:31.617 [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-24 13:50:31.679 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-07-24 13:50:32.282 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@288e92be
+2025-07-24 13:50:32.284 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-07-24 13:50:32.460 [restartedMain] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-24 13:50:34.625 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-24 13:50:34.757 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24 13:50:35.405 [restartedMain] DEBUG com.elms.employee_service.config.JwtFilter - Filter 'jwtFilter' configured for use
+2025-07-24 13:50:35.803 [restartedMain] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-24 13:50:35.957 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-24 13:50:36.468 [restartedMain] INFO  org.springframework.cloud.openfeign.FeignClientFactoryBean - For 'LEAVE-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2025-07-24 13:50:36.787 [restartedMain] INFO  org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenicationProvider
+2025-07-24 13:50:36.788 [restartedMain] WARN  org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-07-24 13:50:37.303 [restartedMain] WARN  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Multiple @RequestMapping annotations found on public org.springframework.http.ResponseEntity com.elms.employee_service.controller.EmployeeController.updatePassword(com.elms.employee_service.dto.PasswordUpdateDto), but only the first will be used: [@org.springframework.web.bind.annotation.RequestMapping(consumes={}, headers={}, method={}, name="", params={}, path={"/updatePassword"}, produces={}, value={"/updatePassword"}), @org.springframework.web.bind.annotation.PutMapping(consumes={}, headers={}, name="", params={}, path={}, produces={}, value={})]
+2025-07-24 13:50:38.063 [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 17 endpoints beneath base path '/actuator'
+2025-07-24 13:50:38.129 [restartedMain] WARN  org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry - One of the patterns in [employee/auth/**, employee/departments, employee/designations, employee/roles, /actuator/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-07-24 13:50:39.533 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-07-24 13:50:39.653 [restartedMain] WARN  org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-07-24 13:50:39.848 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-07-24 13:50:39.911 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-07-24 13:50:39.924 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-07-24 13:50:39.951 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-07-24 13:50:39.951 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-07-24 13:50:39.952 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-07-24 13:50:39.952 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-07-24 13:50:39.953 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-07-24 13:50:39.953 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-07-24 13:50:39.953 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-07-24 13:50:40.955 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-07-24 13:50:40.956 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-07-24 13:50:40.958 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-07-24 13:50:40.961 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1753345240960 with initial instances count: 0
+2025-07-24 13:50:40.971 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application EMPLOYEE-SERVICE with eureka with status UP
+2025-07-24 13:50:40.972 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1753345240972, current=UP, previous=STARTING]
+2025-07-24 13:50:40.976 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-07-24 13:50:40.977 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_EMPLOYEE-SERVICE/Mittal:employee-service:8082: registering service...
+2025-07-24 13:50:41.018 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2025-07-24 13:50:41.019 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8082
+2025-07-24 13:50:41.214 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_EMPLOYEE-SERVICE/Mittal:employee-service:8082 - registration status: 204
+2025-07-24 13:50:41.282 [restartedMain] INFO  com.elms.employee_service.EmployeeServiceApplication - Started EmployeeServiceApplication in 18.053 seconds (process running for 20.323)
+2025-07-24 13:50:55.675 [http-nio-8082-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-24 13:50:55.675 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-24 13:50:55.682 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2025-07-24 13:51:10.960 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-07-24 13:51:10.960 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-07-24 13:51:10.964 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-07-24 13:51:10.964 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2025-07-24 13:51:10.964 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-07-24 13:51:10.964 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2025-07-24 13:51:10.966 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-07-24 13:51:11.024 [DiscoveryClient-CacheRefreshExecutor-%d] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2025-07-24 13:52:05.942 [http-nio-8082-exec-4] INFO  com.elms.employee_service.service.CustomUserDetailsService - Attempting to load user by email: admin@admin.com
+2025-07-24 13:52:06.206 [http-nio-8082-exec-4] DEBUG com.elms.employee_service.service.CustomUserDetailsService - User found: admin@admin.com, Role: ADMIN
+2025-07-24 13:52:06.207 [http-nio-8082-exec-4] INFO  com.elms.employee_service.service.CustomUserDetailsService - Successfully loaded user details for: admin@admin.com
+2025-07-24 13:52:06.608 [http-nio-8082-exec-6] INFO  com.elms.employee_service.service.CustomUserDetailsService - Attempting to load user by email: admin@admin.com
+2025-07-24 13:52:06.618 [http-nio-8082-exec-6] DEBUG com.elms.employee_service.service.CustomUserDetailsService - User found: admin@admin.com, Role: ADMIN
+2025-07-24 13:52:06.618 [http-nio-8082-exec-6] INFO  com.elms.employee_service.service.CustomUserDetailsService - Successfully loaded user details for: admin@admin.com
+2025-07-24 13:52:39.537 [SpringApplicationShutdownHook] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application EMPLOYEE-SERVICE with eureka with status DOWN
+2025-07-24 13:52:39.537 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1753345359537, current=DOWN, previous=UP]
+2025-07-24 13:52:39.537 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_EMPLOYEE-SERVICE/Mittal:employee-service:8082: registering service...
+2025-07-24 13:52:39.537 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-24 13:52:39.555 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_EMPLOYEE-SERVICE/Mittal:employee-service:8082 - registration status: 204
+2025-07-24 13:52:39.640 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-24 13:52:39.672 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-24 13:52:39.672 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-07-24 13:52:39.688 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-07-24 13:52:39.688 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-07-24 13:52:42.694 [DiscoveryClient-%d] WARN  com.netflix.discovery.TimedSupervisorTask - task supervisor shutting down, can't accept the task
+2025-07-24 13:52:42.694 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-07-24 13:52:42.704 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_EMPLOYEE-SERVICE/Mittal:employee-service:8082 - deregister  status: 200
+2025-07-24 13:52:42.704 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
